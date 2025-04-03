@@ -5,6 +5,7 @@ import os
 from dotenv import load_dotenv
 
 # Charger les variables d'environnement
+
 load_dotenv(dotenv_path="api_ft.env")
 
 # Récupérer les identifiants API depuis .env
