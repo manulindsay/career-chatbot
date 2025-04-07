@@ -2,7 +2,7 @@ import json
 from sentence_transformers import SentenceTransformer, util
 
 # === Chargement du fichier enrichi ===
-with open("metiers_competences.json", "r", encoding="utf-8") as f:
+with open("data/metiers_competences.json", "r", encoding="utf-8") as f:
     metiers_data = json.load(f)
 
 # === Chargement du modèle optimisé SentenceCamemBERT ===
